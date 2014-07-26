@@ -14,7 +14,3 @@ libraryDependencies ++= Seq(
   "org.webjars" % "jquery" % "2.1.1",
   "org.webjars" % "bootstrap" % "3.2.0"
 )
-
-includeFilter in (Assets, LessKeys.less) := "*.less"
-
-excludeFilter in (Assets, LessKeys.less) := "_*.less"
