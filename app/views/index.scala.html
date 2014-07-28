@@ -2,9 +2,46 @@
 
 @main("Welcome to Play") {
     @* @play20.welcome(message, style = "Java") *@
-    <div class="container">
-        <div class="jumbotron">
-            <h1>Hello, World!</h1>
-        </div>
+    <div class="jumbotron">
+        <h1>Hello, World!</h1>
     </div>
+    <!-- Calendar area -->
+    <div class="page-header">
+        <h1>実績カレンダー <small>今月の達成状況は？</small></h1>
+        <h2 class="pull-right">${yyyy/MM}</h2>
+    </div>
+    <table class="table table-bordered table-striped table-hover">
+        <colgroup>
+            <col class="span1"></col>
+            <col class="span1"></col>
+            <col class="span1"></col>
+            <col class="span1"></col>
+            <col class="span1"></col>
+            <col class="span1"></col>
+            <col class="span1"></col>
+        </colgroup>
+        <thead>
+            <tr>
+                <th><span class="glyphspancon glyphspancon-calendar"></span> Sun</th><th><span class="glyphspancon glyphspancon-calendar"></span> Mon</th><th><span class="glyphspancon glyphspancon-calendar"></span> Tue</th><th><span class="glyphspancon glyphspancon-calendar"></span> Wed</th><th><span class="glyphspancon glyphspancon-calendar"></span> Thu</th><th><span class="glyphspancon glyphspancon-calendar"></span> Fri</th><th><span class="glyphspancon glyphspancon-calendar"></span> Sat</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><span class="muted">9/30</span></td><td>10/1 <span class="glyphicon glyphicon-ok-sign"></span></td><td>10/2 <span class="glyphicon glyphicon-remove-sign"></span></td><td>10/3 <span class="glyphicon glyphicon-fire"></span></td><td>10/4 <span class="glyphicon glyphicon-fire"></span></td><td>fuga</td><td>hoge</td>
+            </tr>
+            <tr>
+                <td>hoge</td><td>fuga</td><td>hoge</td><td>fuga</td><td>hoge</td><td>fuga</td><td>hoge</td>
+            </tr>
+            <tr>
+                <td>hoge</td><td>fuga</td><td>hoge</td><td>fuga</td><td>hoge</td><td>fuga</td><td>hoge</td>
+            </tr>
+            <tr>
+                <td>hoge</td><td>fuga</td><td>hoge</td><td>fuga</td><td>hoge</td><td>fuga</td><td>hoge</td>
+            </tr>
+            <tr>
+                <td>hoge</td><td>fuga</td><td>hoge</td><td>fuga</td><td>hoge</td><td>fuga</td><td>hoge</td>
+            </tr>
+        </tbody>
+    </table>
+
 }
