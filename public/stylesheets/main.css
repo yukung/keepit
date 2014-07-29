@@ -20,10 +20,10 @@ html, body {
     font-size: 0.9em;
     text-align: center;
 }
-.habit-title {
+.page-title {
     margin-top: 10px;
 }
-.habit-title h1 {
+.page-title h1 {
     margin-top: 0;
 }
 .calendar-nav {
@@ -46,7 +46,7 @@ html, body {
 .calendar-title h2 {
     margin-top: 0;
     font-size: 1.5em;
-    font-family: "latobold",serif;
+    font-family: "latobold", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
 .calendar-day-header {
     background-color: #f3f3f3;
