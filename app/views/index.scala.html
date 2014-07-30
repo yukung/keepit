@@ -1,46 +1,49 @@
-@(message: String)
-
-@main("Welcome to Play") {
-    @* @play20.welcome(message, style = "Java") *@
-    <!-- Calendar area -->
-    <div class="page-header page-title">
-        <h1>ダッシュボード</h1>
-    </div>
-    <div class="row">
-        <div class="col-xs-2 col-md-2 calendar-nav-row text-right">
-            <span class="calendar-nav">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-            </span>
-        </div>
-        <div class="col-xs-8 col-md-8 calendar-nav-row text-center calendar-title">
-            <h2>2014年7月30日(水)</h2>
-        </div>
-        <div class="col-xs-2 col-md-2 calendar-nav-row text-left">
-            <span class="calendar-nav">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-            </span>
-        </div>
-    </div>
-    <div class="panel panel-default">
-        <div class="panel-heading">
-            <span class="glyphicon glyphicon-list-alt"></span> 今日の日課
-        </div>
-        <div class="panel-body">
-            <div class="list-group">
-                <a href="/calendar" class="list-group-item active"><span class="badge">7</span><span class="badge alert-success">4</span>毎日歩いて会社に行く</a>
-                <a href="#" class="list-group-item"><span class="badge">1</span><span class="badge alert-danger">0</span>本を10ページ読む</a>
-                <a href="#" class="list-group-item"><span class="badge">3</span><span class="badge alert-info">2</span>github にコミットする</a>
+@main("keepit") {
+    <section class="landing jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1>Persistence pays off.</h1>
+                    <p>Keepit は、あなたの日常的な習慣の継続をサポートします。</p>
+                    <hr/>
+                    <p class="text-center"><a class="btn btn-primary btn-lg" role="button" href="#">今すぐ始める</a></p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-responsive" src="@routes.Assets.at("images/wireframe_ios.png")" alt="wireframe">
+                </div>
             </div>
         </div>
-    </div>
-    <div class="panel panel-default">
-        <div class="panel-heading">
-            <span class="glyphicon glyphicon-list-alt"></span> グラフ
-        </div>
-        <div class="panel-body">
-            <div class="list-group">
-                <div class="well">ここにチャートが入る</div>
+    </section>
+    <section class="description">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-center">Keepit to better your future.</h1>
+                    <hr/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>シンプルに管理</h2>
+                    <p>Keepit はシンプルに使えます。続けたい習慣を登録して、日々チェックするだけ。難しい操作は要りません。</p>
+                    <p>また、どれくらい継続しているか、合計で何回実行したかがすぐわかります。</p>
+                </div>
+                <div class="col-md-4">
+                    <h2>カレンダーやグラフで見える化</h2>
+                    <p>カレンダー形式で実績を振り返ることができ、継続するモチベーションを沸かせてくれます。</p>
+                </div>
+                <div class="col-md-4">
+                    <h2>リマインダーで忘れずに</h2>
+                    <p>習慣1つ1つにリマインダーを設定することができ、うっかり忘れてしまってモチベーションダウン、なんて心配も要りません。</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-center"><a class="btn btn-primary btn-lg" role="button" href="#">今すぐ始める</a></p>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
+    <section class="detail">
+    </section>
 }
