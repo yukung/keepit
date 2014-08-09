@@ -1,0 +1,98 @@
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -40px;
+    padding: 0 0 40px;
+}
+.footer {
+    height: 40px;
+    width: 100%;
+    color: #777;
+    padding: 10px;
+    border: 1px solid #e7e7e7;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 0.9em;
+    text-align: center;
+}
+.navbar-brand {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 32px;
+}
+.login-screen {
+    max-width: 530px;
+    padding: 15px 0;
+    margin: 0 auto;
+}
+.page-title {
+    margin-top: 10px;
+}
+.page-title h1 {
+    margin-top: 0;
+}
+.calendar-nav {
+    /*position: relative;*/
+    /*display: inline-block;*/
+    padding: 0.8em;
+    /*margin-right: 3px;*/
+    /*margin-bottom: 1em;*/
+    /*vertical-align: top;*/
+    /*overflow: hidden;*/
+    /*height: 1.9em;*/
+    /*line-height: 1.9em;*/
+    /*white-space: nowrap;*/
+    cursor: pointer;
+}
+.calendar-nav-row {
+    padding-right: 0;
+    padding-bottom: 10px;
+}
+.calendar-title h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    font-family: "latobold", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+.calendar-day-header {
+    background-color: #f3f3f3;
+    text-align: center;
+}
+div.table-responsive table.table thead tr th.calendar-day-header {
+    padding: 0;
+    border-bottom-width: 0;
+}
+div.table-responsive table.table tbody tr td.calendar-day {
+    padding: 0;
+    vertical-align: top;
+}
+.calendar-day-area {
+    min-height: 60px;
+}
+.calendar-day-number {
+    float: right;
+    padding: 0 2px;
+}
+.calendar-other-month {
+    opacity: 0.3;
+}
+.calendar-day-content {
+    clear: both;
+    text-align: center;
+    padding: 5px 0px;
+}
+.separator {
+    border-top: 1px solid #ddd;
+    margin: 30px 0 10px;
+    text-align: center;
+    padding: 0;
+    height: 20px;
+}
+.separator span {
+    position: relative;
+    top: -11px;
+    padding: 0 20px;
+    background: #fff;
+    font-weight: bold;
+}

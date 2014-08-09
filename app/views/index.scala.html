@@ -1,10 +1,44 @@
-@(message: String)
-
-@main("Welcome to Play") {
-    @* @play20.welcome(message, style = "Java") *@
-    <div class="container">
-        <div class="jumbotron">
-            <h1>Hello, World!</h1>
+@main("keepit") {
+    <section class="landing jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1>Persistence pays off.</h1>
+                    <p>Keepit は、あなたの日常的な習慣の継続をサポートします。</p>
+                    <a role="button" href="/dashboard"><img src="@routes.Assets.at("images/sign-in-with-twitter-gray.png")" alt="Sign in with Twitter"/></a>
+                    <hr/>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-responsive" src="@routes.Assets.at("images/wireframe_ios.png")" alt="wireframe">
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+    <section class="description">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-center">Keepit to better your future.</h1>
+                    <hr/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>シンプルに管理</h2>
+                    <p>Keepit はシンプルに使えます。続けたい習慣を登録して、日々チェックするだけ。難しい操作は要りません。</p>
+                    <p>また、どれくらい継続しているか、合計で何回実行したかがすぐわかります。</p>
+                </div>
+                <div class="col-md-4">
+                    <h2>カレンダーやグラフで見える化</h2>
+                    <p>カレンダー形式で実績を振り返ることができ、継続するモチベーションを沸かせてくれます。</p>
+                </div>
+                <div class="col-md-4">
+                    <h2>リマインダーで忘れずに</h2>
+                    <p>習慣1つ1つにリマインダーを設定することができ、うっかり忘れてしまってモチベーションダウン、なんて心配も要りません。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="detail">
+    </section>
 }
