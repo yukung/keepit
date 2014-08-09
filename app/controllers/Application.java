@@ -20,7 +20,10 @@ public class Application extends Controller {
     }
 
     public static Result dashboard() {
-        return ok(dashboard.render("hoge"));
+        return ok(dashboard.render());
     }
 
+    public static Result setting() {
+        return ok(setting.render());
+    }
 }

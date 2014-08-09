@@ -18,6 +18,10 @@ html, body {
     font-size: 0.9em;
     text-align: center;
 }
+.navbar-brand {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 32px;
+}
 .login-screen {
     max-width: 530px;
     padding: 15px 0;
